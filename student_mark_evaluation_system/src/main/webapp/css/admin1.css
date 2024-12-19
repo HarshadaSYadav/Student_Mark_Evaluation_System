@@ -1,0 +1,153 @@
+@charset "UTF-8";
+body {
+
+font-family: "Montserrat", sans-serif;
+
+font-optical-sizing: auto;
+
+font-weight: 800;
+
+font-style: normal;
+
+background: linear-gradient(to right, #000000 0%, #737373 100%);
+
+margin: 0;
+
+padding: 0;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+
+}
+
+
+.container {
+
+display: flex;
+
+max-width: 500px;
+
+
+}
+
+
+.container2 {
+
+width:100%;
+
+
+padding: 20px;
+
+color:white;
+
+height:450px;
+
+background-color:#0000;
+
+border: 1px solid black;
+
+border-radius: 20px;
+
+
+}
+
+
+.container2 h2{
+
+margin-top:1px;
+
+text-align:center;
+
+}
+
+
+
+
+.form-group {
+
+margin-bottom: 40px;
+
+margin-top:50px;
+
+}
+
+.form-group label {
+
+display: block;
+
+margin-bottom: 10px;
+
+
+margin-left:30px;
+
+margin-top:30px;
+
+
+
+}
+
+.form-group input {
+
+width: 90%;
+
+padding: 5px;
+
+box-sizing: border-box;
+
+border-radius: 15px;
+
+border:1px solid;
+
+background-color: #a6a6a6;
+
+margin-left:30px;
+
+margin-bottom:5px;
+
+
+
+
+}
+
+input, select, textarea{
+
+color: #000;
+
+}
+
+.form-group button {
+
+padding: 8px 20px;
+
+margin-left:130px;
+
+width: 40%;
+
+font-size:15px;
+
+border: none;
+
+border-radius: 20px;
+
+background-color: #EF6B48;
+
+color: white;
+
+cursor: pointer;
+
+transition: background-color 0.3s ease;
+
+}
+
+.form-group button:hover {
+
+background-color: #0056b3;
+
+}
+
+
+
