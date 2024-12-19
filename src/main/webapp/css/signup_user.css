@@ -1,0 +1,286 @@
+@charset "UTF-8";
+body {
+
+font-family: "Montserrat", sans-serif;
+
+font-optical-sizing: auto;
+
+font-weight: 800;
+
+font-style: normal;
+
+background: linear-gradient(to right, #000000 0%, #737373 100%);
+
+margin: 0;
+
+padding: 0;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height: 100vh;
+
+}
+
+hr.new1{
+
+border: 2px solid ;
+
+width:30%;
+
+text-align:left;
+
+margin-left:0;
+
+margin-top:30px;
+
+}
+
+.image a{
+
+color:black;
+
+}
+
+.image a:hover{
+
+color:white;
+
+}
+
+.container {
+
+display: flex;
+
+max-width: 1000px;
+
+
+}
+
+
+.container1, .container2 {
+
+flex: 1;
+
+padding: 20px;
+
+color:white;
+
+height: auto;
+
+transition: transform 0.3s ease;
+
+}
+
+.image{
+
+display: inline-block;
+
+margin-right: 50px;
+
+margin-left:75px;
+
+}
+
+.image img {
+
+display: block;
+
+}
+
+.container1 {
+
+font-weight: bolder;
+
+margin-right: 40px;
+
+padding-right:90px;
+
+
+
+
+}
+
+.container2{
+
+background-color:#535353;
+
+border: 1px solid black;
+
+border-radius: 20px;
+
+
+
+
+
+}
+
+.container1 h1 {
+
+margin-top: 50;
+
+text-align:left;
+
+}
+
+.container2 h2{
+
+margin-top:1px;
+
+}
+
+.container2 h4{
+
+text-align:center;
+
+}
+
+.button {
+
+margin-top: 90px;
+
+text-align: center
+
+
+
+}
+
+.button button {
+
+padding: 10px 20px;
+
+border: 1px solid black;
+
+border-radius: 5px;
+
+background-color: #535353;
+
+color: #fff;
+
+cursor: pointer;
+
+transition: background-color 0.3s ease;
+
+width:120px;
+
+height:40px;
+
+
+}
+
+.button button:hover {
+
+background-color: black;
+
+}
+
+.form-group {
+
+margin-bottom: 20px;
+
+}
+
+.form-group label {
+
+display: block;
+
+margin-bottom: 10px;
+
+font-weight: bold;
+
+margin-left:15px;
+
+margin-top:15px;
+
+
+
+}
+
+.form-group input {
+
+width: 90%;
+
+padding: 5px;
+
+box-sizing: border-box;
+
+border-radius: 15px;
+
+border:1px solid;
+
+background-color: #a6a6a6;
+
+margin-left:20px;
+
+margin-bottom:5px;
+
+
+
+}
+
+input, select, textarea{
+
+color: #000;
+
+}
+
+.form-group button {
+
+padding: 8px 20px;
+
+margin-left:135px;
+
+width: 40%;
+
+font-size:15px;
+
+border: none;
+
+border-radius: 20px;
+
+background-color: #EF6B48;
+
+color: white;
+
+cursor: pointer;
+
+transition: background-color 0.3s ease;
+
+}
+
+.form-group button:hover {
+
+background-color: #0056b3;
+
+}
+.nav-link:active,
+
+.nav-link:focus,
+
+.nav-link:hover {
+
+background-color: #ffffff26;
+
+}
+
+.nav-link a {
+
+color: white;
+
+text-decoration: none;
+
+
+}
+
+.nav-link{
+
+margin-top:-600px;
+
+margin-left:20px;
+
+font-size:20px;
+
+}

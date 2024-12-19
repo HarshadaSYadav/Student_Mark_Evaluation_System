@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body {
+
+background-color: grey;
+
+
+}
+
+.form-container {
+
+display: grid;
+
+grid-template-columns: 1fr 1fr;
+justify-content: space-between;
+gap: 10px;
+align-items: center;
+
+margin: 80px 300px;
+
+}
+
+.select-container {
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+margin: 50px 35px 0px 170px;
+
+
+}
+
+.select-element {
+
+width: 300px;
+
+height: 40px;
+
+margin-top: 10px;
+
+background-color: #333740;
+
+color: #b1b8ca;
+
+border-radius: 10px;
+
+text-align: center;
+
+font-family: "Roboto", sans-serif;
+
+font-weight: 800;
+
+border: 2px solid black;
+
+cursor: pointer;
+
+padding: 10px;
+
+}
+
+option {
+
+background-color: #333740;
+
+border: 2px solid black;
+
+border-radius: 10px;
+
+color: white;
+
+font-size: 20px;
+
+padding: 10px;
+
+cursor: pointer;
+
+}
+
+option:hover {
+
+background-color: grey;
+
+}
+
+.form-group {
+
+text-align: center; /* Center the container horizontally */
+margin-top: 100px;
+}
+
+.form-group button {
+
+display: inline-block;
+
+margin: 0 5px; /* Adjust margin to control space between buttons */
+
+padding: 10px 20px;
+
+font-size: 16px;
+
+cursor: pointer;
+
+border: 1px solid #ccc;
+
+background-color: #EF6B48;;
+
+border-radius: 5px;
+
+transition: background-color 0.3s;
+
+color:white;
+
+}
+
+.form-group button:hover {
+
+background-color: #0056b3;
+
+}
+
+/* Add hover effect to select elements */
+
+.select-element:hover {
+
+background-color: #444b54;
+
+}

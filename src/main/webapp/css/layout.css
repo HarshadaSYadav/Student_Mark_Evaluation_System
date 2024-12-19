@@ -1,0 +1,123 @@
+/* Reset default styles */
+html, body, ul, li, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #202020;
+  color: #E0E0E0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #E0E0E0;
+  font-weight: bold;
+}
+
+/* Main section styles */
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-sm-2 {
+  flex-basis: 20%;
+    background-color: #464646;
+    height:auto;
+    color:#E0E0E0;
+}
+
+.col-sm-10 {
+  flex-basis: 75%;
+    color:#E0E0E0;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #464646;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sidebar h3 {
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  color: #E0E0E0;
+}
+
+/* Main content styles */
+.content {
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Student details styles */
+.student-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.student {
+  text-align: center;
+}
+
+.student img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #464646;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
