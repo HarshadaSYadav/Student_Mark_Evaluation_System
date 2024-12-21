@@ -8,8 +8,8 @@ public class Mailer {
  public static void  send(String to,String subject,String msg){  
  
   String host="smtp.gmail.com";  
-  final String user="prathameshkiramate@gmail.com";  
-  final String password="gurbtduezboubtcs";  
+  final String user="";  
+  final String password="";  
    
    
    Properties props = new Properties();  
